@@ -1,5 +1,5 @@
 {
-  "name": "hapi-github-webhooks",
+  "name": "@travi/hapi-github-webhooks",
   "version": "2.0.0",
   "description": "A Hapi plugin for receiving requests from the GitHub webhooks API.",
   "keywords": [
@@ -13,6 +13,9 @@
   "repository": {
     "type": "git",
     "url": "http://github.com/mhazy/hapi-github-webhooks"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "compile": "rollup -c",
